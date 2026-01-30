@@ -1,4 +1,4 @@
-Linux Architecture
+# Linux Architecture
 
 A shortcut to remember the Linux architecture is {ASKH}
 
@@ -29,7 +29,7 @@ man ( it can be used to know how the command need to be used/ manual ) man awk P
 cat ( to see the contents of the file ) cat abc.sh
 
 
-#PROCESS  New → Running → Waiting/Sleeping → Stopped → Zombie → Dead
+# PROCESS  New → Running → Waiting/Sleeping → Stopped → Zombie → Dead
 
 Process is a temprovary task which has the pid can be seen using the command ps,ps -eaf or if it related to perticular user then use ps -u username.
 like eg: if we use mkdir abc (creation of folder) that is a termprovary task which is been assigned with pid (process id ).
@@ -55,7 +55,8 @@ kill -9 PID --- terminating the process forcefully
 pkill -u Username --- terminating all process by an user gracefully created 
 pkill -9 -u Username --- terminating all process by an user forcefully created 
 
-#Booting Sequence
+
+# Booting Sequence
 
 BIOS  --- GRUB --- Kernel check the filemounts and hardware --- system files start to execute --- user able to see the terminal CLI
 
@@ -65,6 +66,7 @@ Kernel is loaded into memory by GRUB.
 Kernel initializes hardware, mounts the root filesystem, and sets up basic drivers.
 Kernel then executes the first user-space process, usually SYSTEMD (PID 1) or init.
 after systemd starts the necessary getty/login service, the user sees a terminal (CLI) or GUI if a display manager is enabled.
+
 
 
 
