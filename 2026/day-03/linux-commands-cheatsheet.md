@@ -20,57 +20,60 @@ eg: fg %1 this will make that perticular process to run in foreground
 
 # add on commands 
 
-# file level
-ls -a --- list the hidden files and folder 
-rm --- remove file 
-rm -r --- remove directory recursively ( used in deleting directory )
-echo --- print something echo "hi" prints hi in terminal
-tac --- to print the reverse order of the file content
-mv --- used to rename as well can used to cut paste
-mv abc.sh aaa.sh  ( re-naming )
-mv /abc/abc.sh /bbc/ccc/ ( cut paste happens here )
-head --- to print first 10 lines of file
-tail --- to print bottom 10 lines of the file
-cp --- copy from src to dest
-chmod --- change file or folder permission 
-chown --- change ownership of file or folder
+# File Level
+- ls -a --- list hidden files and folders
+- rm --- remove file
+- rm -r --- remove directory recursively
+- echo "hi" --- print something (prints hi in terminal)
+- tac --- print file content in reverse line order
+- mv --- rename or move files/directories
+- mv abc.sh aaa.sh --- rename file
+- mv /abc/abc.sh /bbc/ccc/ --- move/cut-paste file
+- head --- print first 10 lines of file
+- tail --- print last 10 lines of file
+- cp src dest --- copy file/directory
+- chmod --- change file or directory permissions
+- chown --- change ownership of file or directory
+- chgrp --- change group ownership
+
+# File Editors / Text Processing
+- cut -d " " -f1 filename --- print first column (by delimiter)
+- awk '{print $1}' filename --- print first column
+- awk 'NR==4 || NR==6' filename --- print lines 4 and 6
+- sed --- stream editor to replace patterns
+- sed -i 's/old/new/g' filename --- replace pattern in file
+- grep pattern filename | wc -l --- pattern matching and count lines
+- uniq filename --- show unique lines
+- sort filename --- sort lines alphabetically or numerically
+
+# System Configuration
+- free -h --- RAM utilization
+- df -h --- disk utilization
+- nproc --- number of CPU cores
+- hostname -I --- show private IP of server
+- curl ifconfig.me --- show public IP of server
+- uptime --- server load and uptime
+- date --- show current date and time
+- du -sh file/dir --- show file or directory size
+- uname -r --- kernel version
+- uname -a --- full system info (kernel, hostname, architecture)
+
+# Networking
+- netstat -a --- show all sockets/ports
+- netstat -l --- show listening ports
+- netstat -tulnp --- show allocated TCP/UDP ports with PID
+- ping 127.0.0.1 --- check local host connectivity
+- ping 8.8.8.8 --- check internet connectivity
+- traceroute <host> --- show hops from source to destination
+- ss --- socket statistics
+- ss -a --- show all sockets (netstat -a equivalent)
+- ss -l --- show listening sockets (netstat -l equivalent)
+- ss -p --- show process using sockets (netstat -tulnp equivalent)
+- dig <domain> --- check DNS records (NS, A, MX, etc.)
+- ip addr show --- show IP addresses of interfaces
+- curl <url> --- test server response or download content
 
 
-# files editor 
-cut -d " " -f1 filename --- printing the first column content but cannot be used in case of row operations
-awk -f " " '{print $1}' --- printing the first column using feild space
-awk 'NR==4 && NR==6' --- printing the rows entity as well
-sed - stream editor to replace a pattern from file
-sed -i "old pattern/new pattern/ig" file name / sed "old pattern/new pattern/ig" file name
-grep pattern filename | wc -l --- pattern matching and counting total number of lines
-uniq --- will pick only the unique patterns 
-sort --- will sort the pattrens based on the sequence
-
-
-# system config 
-free -h --- RAM utilization
-df -h --- disc utilization
-nproc --- to see how many cores of cpu 
-hostname -I --- gives the private ip of the server
-curl ifconfig.me --- gives the public ip of the server
-uptime --- to check about the server load 
-date --- to see the date 
-du -sh --- gives the file/directory size
-uname -a --- shows the kernel version, pvt ip, public ip, architrecture type 
-
-
-# networking 
-netstat -a --- gives all the available ports of allocated and are free
-netstat -l --- gives all the listening ports 
-netstat -tulnp --- gives only the allocated ports 
-ping 0 --- packet internet groper send 4 packets to check the availability or rediness of self server [TCP handshake syn ack syn---ack]
-ping 8.8.8.8 --- check whether the perticular server has access to internet or not
-traceroute --- will give how many hops it have taken to hit the destination server from host 
-ss --- socket statistics 
-ss -a --- kind of net tool but it is other version of netstat -a 
-ss -p --- kind of net tool but it is other version of netstat -tulnp
-ss -l --- kind of net tool but it is other version of netstat -l
-dig --- help in checking the nameserver of the ip address
 
 
 
