@@ -32,10 +32,7 @@
 <img width="1919" height="1010" alt="Screenshot 2026-01-31 024141" src="https://github.com/user-attachments/assets/0700c5c7-3d35-4986-89e0-464e965805e1" />
 
 
-<img width="1014" height="330" alt="Screenshot 2026-01-31 024531" src="https://github.com/user-attachments/assets/0efdb0e8-966b-4849-b284-f32adabce60d" />
 
-
-<img width="1382" height="782" alt="Screenshot 2026-01-31 025002" src="https://github.com/user-attachments/assets/47569afc-57f9-414b-b0b7-0cb4314176ee" />
 
 
 
