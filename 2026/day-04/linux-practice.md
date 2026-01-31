@@ -8,5 +8,8 @@
 <img width="1919" height="1013" alt="Screenshot 2026-01-31 021521" src="https://github.com/user-attachments/assets/66cd63ba-5be8-4a77-89b2-cb7f20f74606" />
 <img width="1697" height="592" alt="Screenshot 2026-01-31 150706" src="https://github.com/user-attachments/assets/1f8ba374-a7c8-4a49-841c-f16d959b29b4" />
 
+# log files analysis
+<img width="1909" height="1010" alt="Screenshot 2026-01-31 023940" src="https://github.com/user-attachments/assets/e86459f4-d45b-4063-9ef2-a6040a75171d" />
+
 
 
