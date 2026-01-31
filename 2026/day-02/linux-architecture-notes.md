@@ -31,7 +31,7 @@ cat ( to see the contents of the file ) cat abc.sh
 
 # PROCESS  New → Running → Waiting/Sleeping → Stopped → Zombie → Dead
 
-Process is a temprovary task which has the pid can be seen using the command ps,ps -eaf or if it related to perticular user then use ps -u username.
+- Process is a temprovary task which has the pid can be seen using the command ps,ps -eaf or if it related to perticular user then use ps -u username.
 like eg: if we use mkdir abc (creation of folder) that is a termprovary task which is been assigned with pid (process id ).
 
 Once a process starts, it enters the running state.
@@ -60,12 +60,13 @@ pkill -9 -u Username --- terminating all process by an user forcefully created
 
 BIOS  --- GRUB --- Kernel check the filemounts and hardware --- system files start to execute --- user able to see the terminal CLI
 
-BIOS is a firmware (integrated chip) that performs POST (Power-On Self-Test) to check basic hardware (CPU, RAM, peripherals).
-GRUB (or any bootloader) loads after BIOS.Look for Linux kernel image to load into memory.
-Kernel is loaded into memory by GRUB.
-Kernel initializes hardware, mounts the root filesystem, and sets up basic drivers.
-Kernel then executes the first user-space process, usually SYSTEMD (PID 1) or init.
-after systemd starts the necessary getty/login service, the user sees a terminal (CLI) or GUI if a display manager is enabled.
+- BIOS is a firmware (integrated chip) that performs POST (Power-On Self-Test) to check basic hardware (CPU, RAM, peripherals).
+- GRUB (or any bootloader) loads after BIOS.Look for Linux kernel image to load into memory.
+- Kernel is loaded into memory by GRUB.
+- Kernel initializes hardware, mounts the root filesystem, and sets up basic drivers.
+- Kernel then executes the first user-space process, usually SYSTEMD (PID 1) or init.
+- after systemd starts the necessary process get starts/rest all services starts, the user sees a terminal (CLI) or GUI if a display manager is enabled.
+
 
 
 
