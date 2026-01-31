@@ -1,26 +1,16 @@
 # recording the output of CPU, memory, logs and service analysis
-
+# top
 <img width="1918" height="951" alt="Screenshot 2026-01-31 021126" src="https://github.com/user-attachments/assets/981195df-5788-4595-b98f-f8689458ccd3" />
-
-
+# htop
 <img width="1915" height="1020" alt="Screenshot 2026-01-31 021334" src="https://github.com/user-attachments/assets/55b8256b-19f8-4337-8bd0-644740c2580a" />
-
-
+# service analysis
 <img width="1919" height="1013" alt="Screenshot 2026-01-31 021521" src="https://github.com/user-attachments/assets/25817304-af82-4c85-bb23-db15fca45223" />
-
-
+# logs analysis
 <img width="1919" height="1018" alt="Screenshot 2026-01-31 021707" src="https://github.com/user-attachments/assets/85732f97-0531-49df-988a-3d0b4027964f" />
-
-
 <img width="1915" height="1017" alt="Screenshot 2026-01-31 021729" src="https://github.com/user-attachments/assets/c8d148ed-5061-45a0-8248-6a7ab2b1ee76" />
-
-
 <img width="1523" height="196" alt="Screenshot 2026-01-31 021825" src="https://github.com/user-attachments/assets/364147e0-7655-47a3-a309-90bca01b0703" />
-
-
 <img width="1915" height="963" alt="Screenshot 2026-01-31 022221" src="https://github.com/user-attachments/assets/35639b97-fe9c-44a9-8d9c-bcbcf269b042" />
-
-
+# os analysis 
 <img width="1919" height="1017" alt="Screenshot 2026-01-31 022349" src="https://github.com/user-attachments/assets/87ce6fc6-bd6b-4289-bed7-d0f1577fdba5" />
 
 
@@ -46,6 +36,7 @@
 
 
 <img width="1382" height="782" alt="Screenshot 2026-01-31 025002" src="https://github.com/user-attachments/assets/47569afc-57f9-414b-b0b7-0cb4314176ee" />
+
 
 
 
