@@ -24,8 +24,29 @@
 <img width="1281" height="701" alt="Screenshot 2026-01-31 023524" src="https://github.com/user-attachments/assets/b3c793d6-2887-4b27-9e2a-6d431914d33c" />
 
 
+# approach of high cpu usage 
 
+- use either top or htop to see what percentile of CPU is utilizing
+- check with the PID and the priority of the task
+- if it is of some less prior we can either use the deprioritizing to provide the cooling period
+- or else this process can be stopped or killed by using kill PID or kill -9 PID
+- if its a critical process then be sure take the snapshots
+- if possible try to make the soft reboot of the process or restart 
+- try to change the priority of that perticular process
+- if required enhance or resize the CPU
 
+# for disk
+
+- there might be chances of large un-used files try to make sure finding those using find /path/ -type f -mtime +30 you can delete those based on the discussion
+- try to make the log rotration
+- if required make sure using of compressing the large files using tar -cvzf name.log.gz large_file1 large_file2
+
+# for service 
+
+- check whether the service state by sudo systemctl status service_name
+- if that is up and running try to use restarting that service gracefully sudo systemctl restart service_name
+- please check the other componets as RAM, disk and cpu usage
+- please do read the log files of the service using journalctl -u service_name
 
 
 
