@@ -23,6 +23,8 @@
 <img width="1336" height="305" alt="Screenshot 2026-01-31 023229" src="https://github.com/user-attachments/assets/b821b500-99e5-47c2-8f2a-cb03557bd494" />
 <img width="1281" height="701" alt="Screenshot 2026-01-31 023524" src="https://github.com/user-attachments/assets/b3c793d6-2887-4b27-9e2a-6d431914d33c" />
 
+# disk 
+<img width="1079" height="548" alt="Screenshot 2026-01-31 145852" src="https://github.com/user-attachments/assets/398b66e1-40ff-4ef1-978c-71eccce1c7bc" />
 
 # approach of high cpu usage 
 
@@ -47,6 +49,7 @@
 - if that is up and running try to use restarting that service gracefully sudo systemctl restart service_name
 - please check the other componets as RAM, disk and cpu usage
 - please do read the log files of the service using journalctl -u service_name
+
 
 
 
