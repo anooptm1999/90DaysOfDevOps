@@ -62,7 +62,7 @@ eg: fg %1 this will make that perticular process to run in foreground
 - netstat -a --- show all sockets/ports
 - netstat -l --- show listening ports
 - netstat -tulnp --- show allocated TCP/UDP ports with PID
-- ping 127.0.0.1 --- check local host connectivity
+- ping 0 --- check local host connectivity
 - ping 8.8.8.8 --- check internet connectivity
 - traceroute <host> --- show hops from source to destination
 - ss --- socket statistics
@@ -72,6 +72,7 @@ eg: fg %1 this will make that perticular process to run in foreground
 - dig <domain> --- check DNS records (NS, A, MX, etc.)
 - ip addr show --- show IP addresses of interfaces
 - curl <url> --- test server response or download content
+
 
 
 
