@@ -29,7 +29,7 @@
 - use either top or htop to see what percentile of CPU is utilizing
 - check with the PID and the priority of the task
 - if it is of some less prior we can either use the deprioritizing to provide the cooling period
-- or else this process can be stopped or killed by using kill PID or kill -9 PID
+- or else this process can be stopped or killed by using kill PID or kill -9 PID (forcefully avoid this before using this take permission)
 - if its a critical process then be sure take the snapshots
 - if possible try to make the soft reboot of the process or restart 
 - try to change the priority of that perticular process
@@ -47,6 +47,7 @@
 - if that is up and running try to use restarting that service gracefully sudo systemctl restart service_name
 - please check the other componets as RAM, disk and cpu usage
 - please do read the log files of the service using journalctl -u service_name
+
 
 
 
