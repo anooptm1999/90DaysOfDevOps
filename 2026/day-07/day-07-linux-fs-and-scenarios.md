@@ -35,7 +35,7 @@ eg: /home/ec2-user
 
 # importance of /etc/hostname 
 
-basically the output what you see " ec2-user@ip-172-31-32-50 " this content is present inside /etc/hostname this file if you need to change the hostname permanently you can edit this file save the changes as well 
+basically the output what you see " ec2-user@ip-172-31-32-50 " this content is present inside /etc/hostname if you need to change the hostname permanently you can edit this file save the changes as well 
 
 # A web application service called 'myapp' failed to start after a server reboot. What commands would you run to diagnose the issue?
 approach 
@@ -75,6 +75,7 @@ approach
 - while executing ./file_name need an extra permission of +x but if you are executing file using sh file_name.sh or bash file_name.sh
 - sample snapshot
 <img width="678" height="596" alt="Screenshot 2026-02-02 133541" src="https://github.com/user-attachments/assets/88adfd74-19df-4e84-b0dc-0a6c71c7354f" />
+
 
 
 
