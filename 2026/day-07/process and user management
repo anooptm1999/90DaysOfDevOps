@@ -1,0 +1,44 @@
+# process management 
+ps 
+ps -eaf 
+ps aux --sort=%cpu | grep service_name | head -5 
+use top to get PID's 
+ps -u username 
+
+#user management 
+-rwxr-xr-- 1 user user  1024 Feb  1 10:30 abc.sh
+drwxr-xr-- 1 user user  1024 Feb  1 10:30 test 
+
+in a linux it is either a file or a directory 
+-rwxr-xr-- first - represents file            drwxr-xr-- - d represents the directory 
+rwx - read write execute one triplet
+r-x - read execute
+r-- - red 
+
+-rwx --- first triplet represents user/owner
+ r-x --- second triplet represents group
+ r-- --- last triplet represents others
+ 
+-rwxr-xr--      1            user      user    1024           Feb  1 10:30       abc.sh
+          no of hardlink     owner    group    file-size      time and date       file name  
+
+
+whoami tells what is the user you are in 
+su - username helps in changing the user ( su - abc )
+sudo passwd username ( helps in changing the password or creation )
+sudo --- represents super do like a admin access 
+which bash tells what is the current bash it has /bin/bash 
+
+useradd user_name / adduser username --- creation of new user 
+groupadd group_name --- creation of new group 
+getent passwd --- showcase all the users 
+getent group --- showcase all the groups 
+
+sudo gpasswd -a username group2 --- adding user to group 
+sudo usermod -aG group1 username --- adding the user to group 
+
+sudo chown ownername filename --- change the ownership
+sudo chown -R owner_name:group_name file_name --- changing the ownership and group simultainously
+
+sudo chgrp group_name file_name --- changing the group of the file 
+
