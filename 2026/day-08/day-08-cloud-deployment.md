@@ -9,7 +9,7 @@ a sample snap is been given below
 <img width="1556" height="622" alt="Screenshot 2026-02-02 190658" src="https://github.com/user-attachments/assets/78b44cd0-b28b-4841-8ed8-660897bb888b" />
 
 
-# installing the nginx and checking the service is up or not 
+# installing the services like docker,NGINX checking the service is up or not 
 make sure updateing the packages soon after doing ssh ( sudo yum update / upgrade )
 - here I had used amazon linux 2023 server so package manager is yum if you are using some other like (ubuntu:apt RHEL:dnf )
 - then use sudo yum install nginx -y, start the service ( sudo systemctl start service_name ) check the status ( sudo systemctl status nginx )
@@ -25,6 +25,11 @@ make sure updateing the packages soon after doing ssh ( sudo yum update / upgrad
  <img width="1626" height="784" alt="Screenshot 2026-02-02 195124" src="https://github.com/user-attachments/assets/54c7bf16-77a2-4121-bb83-d36fce90e6ec" />
  #  samaple o/p of welcome page of NGINX
  <img width="1919" height="968" alt="Screenshot 2026-02-02 190856" src="https://github.com/user-attachments/assets/ed09a8d6-c5fd-490a-95a1-45ca993a25cf" />
+
+# installation of Docker and configuring
+<img width="1919" height="972" alt="Screenshot 2026-02-02 212050" src="https://github.com/user-attachments/assets/ef4f6207-81ef-4741-9d8a-e4dedbe8d5e1" />
+
+<img width="1919" height="950" alt="Screenshot 2026-02-02 212105" src="https://github.com/user-attachments/assets/cb37d13d-eaaa-4507-beae-1e302455768f" />
 
 # copying the logs of NGINX from EC2 --- local 
 - have a git bash opened and redirect your path where there is a downloaded private key of that server
