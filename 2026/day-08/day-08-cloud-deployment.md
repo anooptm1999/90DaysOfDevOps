@@ -19,11 +19,11 @@ make sure updateing the packages soon after doing ssh ( sudo yum update / upgrad
  a sample snap is been given below
 
  <img width="1626" height="784" alt="Screenshot 2026-02-02 195124" src="https://github.com/user-attachments/assets/d74df7e1-63d5-4536-84bf-17e6a722650a" />
- # installing the package
+ #  installing the package
  <img width="1919" height="981" alt="Screenshot 2026-02-02 191123" src="https://github.com/user-attachments/assets/6c5407c4-84e4-4d51-a0d3-fe0a92bd4d71" />
- # status checking 
+ #  status checking 
  <img width="1626" height="784" alt="Screenshot 2026-02-02 195124" src="https://github.com/user-attachments/assets/54c7bf16-77a2-4121-bb83-d36fce90e6ec" />
- # smaple o/p of welcome page of NGINX
+ #  samaple o/p of welcome page of NGINX
  <img width="1919" height="968" alt="Screenshot 2026-02-02 190856" src="https://github.com/user-attachments/assets/ed09a8d6-c5fd-490a-95a1-45ca993a25cf" />
 
 # copying the logs of NGINX from EC2 --- local 
