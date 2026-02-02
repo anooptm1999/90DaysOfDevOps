@@ -44,6 +44,14 @@ sample snaps are attached
 # viewing log file in local 
 <img width="1919" height="654" alt="Screenshot 2026-02-02 194256" src="https://github.com/user-attachments/assets/f2b7b3b1-3383-479f-8f4a-af1b5ef10854" />
 
+# Challenge faced: Copying the NGINX log file from EC2 to a Windows local machine.
+
+- Initial attempt using Windows CMD failed because CMD does not natively support SCP and Linux-style paths.
+- Copying between EC2 instances worked because Linux understands SCP and paths correctly.
+- Solution: Use Git Bash on Windows, navigate to the directory containing the private key, and run the SCP command.
+- Result: The log file was successfully copied from EC2 to the local machine.
+
+
 
 
 
