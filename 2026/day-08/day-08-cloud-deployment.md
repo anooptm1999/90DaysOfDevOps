@@ -29,7 +29,7 @@ make sure updateing the packages soon after doing ssh ( sudo yum update / upgrad
 # copying the logs of NGINX from EC2 --- local 
 - have a git bash opened and redirect your path where there is a downloaded private key of that server
 - by using scp ( secure copy ) i,e scp -i pvt-key.pem username@hostname of EC2-server:path-of-the-logfile-in-EC2 local-machine-path
-  (( scp -v -i pvt-key.pem username@hostname:/home/ec2-user/nginx-logs.txt ~/Desktop/ ))
+- (( scp -v -i pvt-key.pem username@hostname:/home/ec2-user/nginx-logs.txt ~/Desktop/ ))
 - -v represents verbose is nothing but visually it will show all the process how?how?what?
 sample snaps are attached
 
