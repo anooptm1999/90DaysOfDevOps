@@ -23,7 +23,7 @@
 # inodes, block storages
 <img width="759" height="392" alt="Screenshot 2026-02-06 012307" src="https://github.com/user-attachments/assets/937edcab-102d-4f7a-9774-ebf1f7db33bf" />
 
-# ping, background , foreground jobs
+# ping, inodes and blockstorages
 <img width="1165" height="965" alt="Screenshot 2026-02-06 012957" src="https://github.com/user-attachments/assets/ff7e3f46-73be-405c-b6f8-9146cac37b00" />
 <img width="1235" height="945" alt="Screenshot 2026-02-06 013012" src="https://github.com/user-attachments/assets/268cd69a-fe5e-4eeb-9d0c-d66af2863663" />
 
