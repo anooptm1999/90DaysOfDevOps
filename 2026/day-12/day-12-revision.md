@@ -18,7 +18,7 @@
 # port checking and memory 
 <img width="1856" height="881" alt="Screenshot 2026-02-06 011949" src="https://github.com/user-attachments/assets/73c6be35-1600-424d-8c4f-49534cc6ac9b" />
 
-# redirect, append cat and vi editor 
+# redirect, append, cat and vi editor 
 <img width="1010" height="616" alt="Screenshot 2026-02-06 012004" src="https://github.com/user-attachments/assets/11808109-2538-447a-bd08-4b78c058d388" />
 
 # inodes, block storages
