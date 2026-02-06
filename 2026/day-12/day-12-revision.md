@@ -5,7 +5,7 @@
 <img width="1463" height="963" alt="Screenshot 2026-02-06 003156" src="https://github.com/user-attachments/assets/0e2b98c1-9847-4858-9fd1-5142327b5b10" />
 <img width="1492" height="968" alt="Screenshot 2026-02-06 003257" src="https://github.com/user-attachments/assets/8e6b28db-af98-48e8-9c2a-3cf280d63f9c" />
 
-# user, groups, other permissions jumphost 
+# file permissions and jumphost 
 <img width="1492" height="968" alt="Screenshot 2026-02-06 003257" src="https://github.com/user-attachments/assets/e1cc964e-556e-43e2-a355-21de1c912dca" />
 <img width="968" height="951" alt="Screenshot 2026-02-06 003323" src="https://github.com/user-attachments/assets/c5487b0c-7313-4435-b814-a6765e312293" />
 <img width="1413" height="918" alt="Screenshot 2026-02-06 003340" src="https://github.com/user-attachments/assets/b95083d2-d653-477c-af93-caa90164b943" />
