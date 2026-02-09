@@ -29,6 +29,17 @@
 <img width="1173" height="957" alt="Screenshot 2026-02-09 173611" src="https://github.com/user-attachments/assets/21a6617a-7c84-4302-a6b5-17875f121c52" />
 
 
+# Identify one listening port from ss -tulpn
+<img width="1622" height="946" alt="Screenshot 2026-02-10 021900" src="https://github.com/user-attachments/assets/7ffe9bd0-b170-47a1-a505-46f9792fa877" />
+
+
+# From the same machine, test it: nc -zv localhost <port> 
+<img width="740" height="375" alt="Screenshot 2026-02-10 021907" src="https://github.com/user-attachments/assets/38db68b6-1a09-4e00-a073-1f0b1e7fd6fc" />
+
+# Write one line: is it reachable? If not, what’s the next check?
+yes it is reachable If it's not need to analyse with the security groups ports are open or not then with ping
+
+
 
 
 
