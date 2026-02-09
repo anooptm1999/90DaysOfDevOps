@@ -5,7 +5,7 @@
 # Create Volume Group and Create Logical Volume
 <img width="1196" height="964" alt="Screenshot 2026-02-09 153408" src="https://github.com/user-attachments/assets/75f66667-248e-49d0-b892-d462f3934da3" />
 
-# Format and Mount as well Extend the Volume
+# Format, Mount as well Extend the Volume
 <img width="1433" height="594" alt="Screenshot 2026-02-09 153422" src="https://github.com/user-attachments/assets/edd87bc4-7221-4a40-9ed2-0d925be8d7fd" />
 
 
