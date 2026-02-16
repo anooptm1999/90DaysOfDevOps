@@ -30,9 +30,9 @@ If no argument is passed, prints "Usage: ./greet.sh "
 
 Create args_demo.sh that:
 
-Prints total number of arguments
-Prints all arguments 
-Prints the script name 
+- Prints total number of arguments
+- Prints all arguments 
+- Prints the script name 
 <img width="881" height="457" alt="Screenshot 2026-02-17 030619" src="https://github.com/user-attachments/assets/60354898-e516-4b68-9b46-f02b73237f47" />
 <img width="731" height="552" alt="Screenshot 2026-02-17 030603" src="https://github.com/user-attachments/assets/b384f11c-f776-40bc-aa67-d0bbf8e1addb" />
 
