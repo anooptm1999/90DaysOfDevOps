@@ -53,9 +53,14 @@ Asks the user: "Do you want to check the status? (y/n)"
 If y — runs systemctl status <service> and prints whether it's active or not
 If n — prints "Skipped."
 
-<img width="1051" height="749" alt="Screenshot 2026-02-17 014600" src="https://github.com/user-attachments/assets/bda8af17-ed45-4529-ba03-0c23d52afe88" />
-<img width="1656" height="975" alt="Screenshot 2026-02-17 014622" src="https://github.com/user-attachments/assets/bd2cdbfb-0584-41bc-a832-58939bb89332" />
-<img width="1919" height="759" alt="Screenshot 2026-02-17 014641" src="https://github.com/user-attachments/assets/7aa1b1aa-b885-40cc-a629-d837584f499b" />
+<img width="1051" height="749" alt="Screenshot 2026-02-17 014600" src="https://github.com/user-attachments/assets/11aa5814-1425-4356-9acc-fd4307b98fe4" />
+<img width="1656" height="975" alt="Screenshot 2026-02-17 014622" src="https://github.com/user-attachments/assets/646c0930-e60f-4b9a-9d47-9c723bdf86ff" />
+<img width="1919" height="759" alt="Screenshot 2026-02-17 014641" src="https://github.com/user-attachments/assets/8d31633d-f7f3-48ae-9b86-06640d355235" />
+<img width="1919" height="966" alt="Screenshot 2026-02-17 014719" src="https://github.com/user-attachments/assets/d519eadd-7d4e-4523-ad7d-40f82f680eea" />
+
+
+
+
 
 
 
