@@ -12,15 +12,17 @@ nothing the script will be interpreted in the default shell like we have bash,sh
 environment the script should be executed 
 
 # Variables
-# Create variables.sh with:
+Create variables.sh with:
 - A variable for your NAME
 - A variable for your ROLE (e.g., "DevOps Engineer")
 - Print: Hello, I am <NAME> and I am a <ROLE>
-# Try using single quotes vs double quotes — what's the difference?
+
 <img width="813" height="729" alt="Screenshot 2026-02-17 011259" src="https://github.com/user-attachments/assets/d2a6218a-3ffd-458d-8a66-8fcf610750ad" />
 <img width="897" height="686" alt="Screenshot 2026-02-17 011331" src="https://github.com/user-attachments/assets/3f90e9ed-b7c1-4afb-95e5-e3de2f7e1f85" />
 <img width="1233" height="737" alt="Screenshot 2026-02-17 011447" src="https://github.com/user-attachments/assets/f175c6cb-8b61-4af4-adf4-bb3e9f09fa4e" />
 <img width="1243" height="751" alt="Screenshot 2026-02-17 011748" src="https://github.com/user-attachments/assets/a956ffa2-605f-41a5-8ddc-9a524efdb59c" />
+Try using single quotes vs double quotes — what's the difference?
+no worries 
 
 # Task 3: User Input with read
 - Create greet.sh that:
@@ -30,7 +32,7 @@ environment the script should be executed
 <img width="1334" height="327" alt="Screenshot 2026-02-17 012535" src="https://github.com/user-attachments/assets/30958c0b-5631-4238-a6fc-e3a3b265ebd5" />
 
 # Task 4: If-Else Conditions
-# Create check_number.sh that:
+Create check_number.sh that:
 Takes a number using read
 Prints whether it is positive, negative, or zero
 <img width="913" height="748" alt="Screenshot 2026-02-17 012503" src="https://github.com/user-attachments/assets/b0c37312-5a80-4688-83f9-5f3cdaa4037b" />
