@@ -45,7 +45,7 @@ Prints appropriate message
 <img width="1240" height="456" alt="Screenshot 2026-02-17 013602" src="https://github.com/user-attachments/assets/2deea24d-e511-41fc-8818-2a76d9679e04" />
 <img width="1236" height="753" alt="Screenshot 2026-02-17 020419" src="https://github.com/user-attachments/assets/b2c984fa-d836-4751-91c1-be2d10c6602f" />
 
-# ask 5: Combine It All
+# Task 5: Combine It All
 Create server_check.sh that:
 
 Stores a service name in a variable (e.g., nginx, sshd)
