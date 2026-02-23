@@ -28,17 +28,15 @@ Pipeline done
 <img width="1336" height="678" alt="Screenshot 2026-02-23 143709" src="https://github.com/user-attachments/assets/c79dc14a-a7ce-4f8b-bf1f-9d353ad6ba69" />
 <img width="1204" height="667" alt="Screenshot 2026-02-23 143651" src="https://github.com/user-attachments/assets/abf1f8fd-345a-41f0-8562-9a9c6d5039e2" />
 
-
-- Local Variables
+# Local Variables
 - Create local_demo.sh with:
 - A function that uses local keyword for variables
 - Show that local variables don't leak outside the function
 - Compare with a function that uses regular variables
 
 
-- Build a Script — System Info Reporter
+# Build a Script — System Info Reporter
 - Create system_info.sh that uses functions for everything:
-
 - A function to print hostname and OS info
 - A function to print uptime
 - A function to print disk usage (top 5 by size)
