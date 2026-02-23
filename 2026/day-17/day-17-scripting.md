@@ -54,7 +54,8 @@ Error Handling
 - Tries to navigate into it
 - Creates a file inside
 - Uses || operator to print an error if any step fails
-
+<img width="1326" height="518" alt="Screenshot 2026-02-23 132355" src="https://github.com/user-attachments/assets/4bd3aa73-f167-45ab-8702-c862b12ffdca" />
+<img width="1281" height="377" alt="Screenshot 2026-02-23 132415" src="https://github.com/user-attachments/assets/0f460339-b32f-4473-8765-99c47178e1be" />
 
 
 Modify your install_packages.sh to check if the script is being run as root — exit with a message if not.
