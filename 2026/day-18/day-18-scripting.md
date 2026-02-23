@@ -34,6 +34,8 @@ Pipeline done
 - Show that local variables don't leak outside the function
 - Compare with a function that uses regular variables
 
+<img width="1154" height="634" alt="Screenshot 2026-02-23 151227" src="https://github.com/user-attachments/assets/ed321dd6-6dd2-4c66-8b45-a97bb8a2dbc9" />
+<img width="1013" height="325" alt="Screenshot 2026-02-23 151248" src="https://github.com/user-attachments/assets/02357980-25fd-4e4e-8b66-9daa57370aba" />
 
 # Build a Script — System Info Reporter
 - Create system_info.sh that uses functions for everything:
@@ -44,6 +46,11 @@ Pipeline done
 - A function to print top 5 CPU-consuming processes
 - A main function that calls all of the above with section headers
 - Use set -euo pipefail at the top
+
+<img width="1419" height="964" alt="Screenshot 2026-02-23 153540" src="https://github.com/user-attachments/assets/05485bb0-e51b-4eb5-a2ed-881f7a05d0dc" />
+<img width="1919" height="657" alt="Screenshot 2026-02-23 153615" src="https://github.com/user-attachments/assets/e009f795-6224-4fd3-9e21-438de66f60bf" />
+
+
 
 
 
