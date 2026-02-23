@@ -36,6 +36,32 @@ Create args_demo.sh that:
 <img width="881" height="457" alt="Screenshot 2026-02-17 030619" src="https://github.com/user-attachments/assets/60354898-e516-4b68-9b46-f02b73237f47" />
 <img width="731" height="552" alt="Screenshot 2026-02-17 030603" src="https://github.com/user-attachments/assets/b384f11c-f776-40bc-aa67-d0bbf8e1addb" />
 
+Install Packages via Script
+- Create install_packages.sh that:
+- Defines a list of packages: nginx, curl, wget
+- Loops through the list
+- Checks if each package is installed (use dpkg -s or rpm -q)
+- Installs it if missing, skips if already present
+- Prints status for each package
+  <img width="1012" height="487" alt="Screenshot 2026-02-23 130337" src="https://github.com/user-attachments/assets/c7b9515a-91a5-46a4-b729-22edae5477a4" />
+  <img width="1898" height="958" alt="Screenshot 2026-02-23 130355" src="https://github.com/user-attachments/assets/083d6d49-5c8c-458b-bd9d-4c893ca8f252" />
+  <img width="1798" height="221" alt="Screenshot 2026-02-23 130409" src="https://github.com/user-attachments/assets/7508957e-1e11-4383-9194-c45474a93a7f" />
+
+Error Handling
+- Create safe_script.sh that:
+- Uses set -e at the top (exit on error)
+- Tries to create a directory /tmp/devops-test
+- Tries to navigate into it
+- Creates a file inside
+- Uses || operator to print an error if any step fails
+
+
+
+Modify your install_packages.sh to check if the script is being run as root — exit with a message if not.
+
+
+
+
 
 
 
