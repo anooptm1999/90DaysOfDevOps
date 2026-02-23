@@ -6,7 +6,7 @@
 <img width="904" height="627" alt="Screenshot 2026-02-23 135632" src="https://github.com/user-attachments/assets/73cd6dc5-def2-4586-9aba-b896ac5f3985" />
 <img width="918" height="322" alt="Screenshot 2026-02-23 135644" src="https://github.com/user-attachments/assets/3342cb68-6260-4b90-aba7-86dfcea79d20" />
 
-- Functions with Return Values
+# Functions with Return Values
 - Create disk_check.sh with:
 - A function check_disk that checks disk usage of / using df -h
 - A function check_memory that checks free memory using free -h
@@ -14,7 +14,7 @@
 <img width="1125" height="745" alt="Screenshot 2026-02-23 141625" src="https://github.com/user-attachments/assets/409aeb63-ffc0-42c4-9050-f7af2f4ced77" />
 <img width="1333" height="411" alt="Screenshot 2026-02-23 141611" src="https://github.com/user-attachments/assets/6c8f8c50-edf9-4a15-8a0b-c97e33737518" />
 
-- Strict Mode — set -euo pipefail
+# Strict Mode — set -euo pipefail
 - Create strict_demo.sh with set -euo pipefail at the top
 - Try using an undefined variable — what happens with set -u?
 - Try a command that fails — what happens with set -e?
