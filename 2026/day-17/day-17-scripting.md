@@ -60,6 +60,11 @@ Error Handling
 
 Modify your install_packages.sh to check if the script is being run as root — exit with a message if not.
 
+<img width="1325" height="721" alt="Screenshot 2026-02-23 133521" src="https://github.com/user-attachments/assets/508bd9f4-3687-4e86-98c2-1067d7fb2331" />
+<img width="1384" height="475" alt="Screenshot 2026-02-23 133535" src="https://github.com/user-attachments/assets/ef4b1a11-3127-4797-8ed4-c22cf121d361" />
+
+
+
 
 
 
