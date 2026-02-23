@@ -28,15 +28,14 @@ If no argument is passed, prints "Usage: ./greet.sh "
 <img width="653" height="514" alt="Screenshot 2026-02-17 030009" src="https://github.com/user-attachments/assets/9fbc77ec-968c-4572-9416-f1bb002ee1d5" />
 <img width="1635" height="895" alt="Screenshot 2026-02-17 030030" src="https://github.com/user-attachments/assets/9e676b2a-febb-4140-bac1-2f5afb6e8e98" />
 
-Create args_demo.sh that:
-
+# Create args_demo.sh that:
 - Prints total number of arguments
 - Prints all arguments 
 - Prints the script name 
 <img width="881" height="457" alt="Screenshot 2026-02-17 030619" src="https://github.com/user-attachments/assets/60354898-e516-4b68-9b46-f02b73237f47" />
 <img width="731" height="552" alt="Screenshot 2026-02-17 030603" src="https://github.com/user-attachments/assets/b384f11c-f776-40bc-aa67-d0bbf8e1addb" />
 
-Install Packages via Script
+# Install Packages via Script
 - Create install_packages.sh that:
 - Defines a list of packages: nginx, curl, wget
 - Loops through the list
@@ -47,7 +46,7 @@ Install Packages via Script
   <img width="1898" height="958" alt="Screenshot 2026-02-23 130355" src="https://github.com/user-attachments/assets/083d6d49-5c8c-458b-bd9d-4c893ca8f252" />
   <img width="1798" height="221" alt="Screenshot 2026-02-23 130409" src="https://github.com/user-attachments/assets/7508957e-1e11-4383-9194-c45474a93a7f" />
 
-Error Handling
+# Error Handling
 - Create safe_script.sh that:
 - Uses set -e at the top (exit on error)
 - Tries to create a directory /tmp/devops-test
@@ -58,7 +57,7 @@ Error Handling
 <img width="1281" height="377" alt="Screenshot 2026-02-23 132415" src="https://github.com/user-attachments/assets/0f460339-b32f-4473-8765-99c47178e1be" />
 
 
-Modify your install_packages.sh to check if the script is being run as root — exit with a message if not.
+# Modify your install_packages.sh to check if the script is being run as root — exit with a message if not.
 
 <img width="1325" height="721" alt="Screenshot 2026-02-23 133521" src="https://github.com/user-attachments/assets/508bd9f4-3687-4e86-98c2-1067d7fb2331" />
 <img width="1384" height="475" alt="Screenshot 2026-02-23 133535" src="https://github.com/user-attachments/assets/ef4b1a11-3127-4797-8ed4-c22cf121d361" />
