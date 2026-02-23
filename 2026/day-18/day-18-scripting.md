@@ -6,5 +6,12 @@
 <img width="904" height="627" alt="Screenshot 2026-02-23 135632" src="https://github.com/user-attachments/assets/73cd6dc5-def2-4586-9aba-b896ac5f3985" />
 <img width="918" height="322" alt="Screenshot 2026-02-23 135644" src="https://github.com/user-attachments/assets/3342cb68-6260-4b90-aba7-86dfcea79d20" />
 
+- Functions with Return Values
+- Create disk_check.sh with:
+- A function check_disk that checks disk usage of / using df -h
+- A function check_memory that checks free memory using free -h
+- A main section that calls both and prints the results
+
+
 
 
