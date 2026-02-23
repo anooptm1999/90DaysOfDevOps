@@ -14,20 +14,19 @@
 <img width="1125" height="745" alt="Screenshot 2026-02-23 141625" src="https://github.com/user-attachments/assets/409aeb63-ffc0-42c4-9050-f7af2f4ced77" />
 <img width="1333" height="411" alt="Screenshot 2026-02-23 141611" src="https://github.com/user-attachments/assets/6c8f8c50-edf9-4a15-8a0b-c97e33737518" />
 
-
 - Strict Mode — set -euo pipefail
 - Create strict_demo.sh with set -euo pipefail at the top
 - Try using an undefined variable — what happens with set -u?
 - Try a command that fails — what happens with set -e?
 - Try a piped command where one part fails — what happens with set -o pipefail?
 - Document: What does each flag do?
-- set -e →
-- set -u →
-- set -o pipefail →
+- set -e → cat: abc.txt: No such file or directory
+- set -u → ubound variable
+- set -o pipefail → cat: abc.txt: No such file or directory
+Pipeline done
 
-
-
-
+<img width="1336" height="678" alt="Screenshot 2026-02-23 143709" src="https://github.com/user-attachments/assets/c79dc14a-a7ce-4f8b-bf1f-9d353ad6ba69" />
+<img width="1204" height="667" alt="Screenshot 2026-02-23 143651" src="https://github.com/user-attachments/assets/abf1f8fd-345a-41f0-8562-9a9c6d5039e2" />
 
 
 - Local Variables
