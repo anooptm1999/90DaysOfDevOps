@@ -149,9 +149,9 @@ Include at least 5 real-world one-liners you find useful. Examples:
 
 # Error Handling and Debugging
 Document with examples:
-Exit codes — $?, exit 0, exit 1
-<img width="489" height="194" alt="Screenshot 2026-02-25 202610" src="https://github.com/user-attachments/assets/ff5610a2-5fd3-420b-95f5-24546f7972b7" />
-<img width="532" height="98" alt="Screenshot 2026-02-25 202617" src="https://github.com/user-attachments/assets/b28e52bd-f351-4301-8c1d-740784c354ce" />
+- Exit codes — $?, exit 0, exit 1
+- <img width="489" height="194" alt="Screenshot 2026-02-25 202610" src="https://github.com/user-attachments/assets/ff5610a2-5fd3-420b-95f5-24546f7972b7" />
+- <img width="532" height="98" alt="Screenshot 2026-02-25 202617" src="https://github.com/user-attachments/assets/b28e52bd-f351-4301-8c1d-740784c354ce" />
 - set -e — exit on error
 - <img width="493" height="139" alt="Screenshot 2026-02-25 202700" src="https://github.com/user-attachments/assets/7ca6b3f4-a165-4607-bad6-9ba338b4915f" />
 - set -u — treat unset variables as error
